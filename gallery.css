@@ -1,0 +1,78 @@
+#bodyback{
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+.nav{
+   
+    
+    display: inline-block;
+    width: 25%;    
+    height: 50px;
+    position: fixed;
+    top: 8px;
+    left: 1100px;
+    
+
+}
+.items{
+    float:left;
+    
+    margin: 13px;
+    list-style: none;
+   
+}
+.active1{
+    cursor: pointer;
+  text-decoration: none;
+  color: rgb(223, 211, 195);
+  font-family:  cursive;
+  
+
+}
+
+
+
+.container a:hover{
+    color: burlywood;
+}
+.tittle{
+    display: inline-block;
+    width: 50%;
+   margin-top: 20px;
+   margin-left: 20px;
+    
+}
+#tit{
+    color: rgb(230, 191, 140);
+    font-family: 'Sigmar One', cursive;
+    font-size: 50px;
+    text-align: center;
+
+}
+#tit1{
+    color: rgb(230, 191, 140);
+    font-family: 'Sigmar One', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+.box{
+    margin: 30px;
+    float: left;
+    height: 500px;
+    width: 500px;
+    
+}
+.image{
+    height: 500px;
+    width: 500px;
+    opacity: 0.8;
+    
+}
+img:hover{
+    opacity: 2;
+    border: 2px solid burlywood;
+
+}

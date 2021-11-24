@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+#bodyback{
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: auto ;
+    
+}
+.nav{
+   
+    
+    display: inline-block;
+    width: 25%;    
+    height: 50px;
+    position: fixed;
+    top: 8px;
+    left: 1000px;
+    
+
+}
+.items{
+    float:left;
+    
+    margin: 13px;
+    list-style: none;
+   
+}
+.active1{
+    cursor: pointer;
+  text-decoration: none;
+  color: rgb(223, 211, 195);
+  font-family:  cursive;
+  
+
+}
+
+
+
+.container a:hover{
+    color: burlywood;
+}
+.tittle{
+    display: inline-block;
+    width: 50%;
+   margin-top: 20px;
+   margin-left: 20px;
+    
+}
+#tit{
+    color: rgb(230, 191, 140);
+    font-family: 'Sigmar One', cursive;
+    font-size: 50px;
+    text-align: center;
+
+}
+#tit1{
+    color: rgb(230, 191, 140);
+    font-family: 'Sigmar One', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+.f{
+    display: block;
+    word-wrap: break-word;
+  margin-left: 200px;
+  margin-right: auto;
+  margin-top: 30px;
+  color: rgb(235, 222, 206);
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  
+}
+.poem{
+    display: block;
+    
+}

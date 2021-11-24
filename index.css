@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+#bodyback{
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: auto ;
+    
+}
+.nav{
+   
+    
+    display: inline-block;
+    width: 25%;
+    /* margin: 24px 14px; */
+    
+    height: 50px;
+    position: fixed;
+    top: 8px;
+    left: 1000px;
+    
+
+}
+.items{
+    float:left;
+    
+    margin: 13px;
+    list-style: none;
+   
+}
+.active1{
+    cursor: pointer;
+  text-decoration: none;
+  color: rgb(223, 211, 195);
+  font-family:  cursive;
+  
+
+}
+.container a:hover{
+    color: burlywood;
+}
+.tittle{
+    display: inline-block;
+    width: 50%;
+   margin-top: 20px;
+   margin-left: 20px;
+    
+}
+#tit{
+    color: rgb(230, 191, 140);
+    font-family: 'Sigmar One', cursive;
+    font-size: 50px;
+    text-align: center;
+
+}
+#p1{
+    color: rgb(223, 211, 195);
+    font-family:  cursive;
+    word-wrap: break-word;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 20px;
+    width: 20%;
+}
+#m{
+    color: rgb(223, 211, 195);
+    font-family:  cursive;
+    margin-top: 50px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.map{
+    
+    display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 50%;
+    
+}
+
+#t1{
+    background: rgb(233, 204, 167);
+    position: absolute;
+    top: 520px;
+    right: 850px;
+    
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bolder;
+  font-size: 25px;
+}
+#t2{
+    background: rgb(233, 204, 167);
+    position: absolute;
+    top: 690px;
+    right: 1100px;
+    
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bolder;
+  font-size: 25px;
+}
+#t3{
+    background: rgb(233, 204, 167);
+    position: absolute;
+    top: 800px;
+    left: 750px;
+    
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bolder;
+  font-size: 25px;
+}
+#t4{
+    background: rgb(233, 204, 167);
+    position: absolute;
+    top: 1000px;
+    left: 280px;
+    
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bolder;
+  font-size: 25px;
+}
+#t5{
+    background: rgb(233, 204, 167);
+    position: absolute;
+    top: 1160px;
+    left: 710px;
+    
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.active{
+    cursor: pointer;
+  text-decoration: none;
+  color: rgba(103, 50, 15, 0.626);
+}
+.block a:hover{
+  color: chocolate;
+}
